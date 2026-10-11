@@ -1,0 +1,101 @@
+RouteID,SourceWarehouseID,DestinationCity,DistanceKm,EstimatedTravelTimeHrs,RoutePriority,IsActive
+RT0001,WH045,Lake Gregory,375,6.58,Medium,No
+RT0002,WH022,Port Tommy,484,6.99,High,No
+RT0003,WH003,New Gregorybury,581,10.73,Medium,Yes
+RT0004,WH009,Simsmouth,780,11.79,Medium,Yes
+RT0005,WH013,East Roger,828,17.46,Low,Yes
+RT0006,WH049,Brianfort,952,13.22,Low,No
+RT0007,WH026,Laurenton,1072,21.33,Medium,Yes
+RT0008,WH034,New Raymond,631,14.9,Medium,No
+RT0009,WH049,Leton,805,11.16,High,No
+RT0010,WH027,Randolphland,1084,15.3,High,No
+RT0011,WH017,Williamport,1421,21.7,Low,No
+RT0012,WH016,South Dale,412,6.53,Low,No
+RT0013,WH009,Morrowstad,849,17.07,High,No
+RT0014,WH003,Port Paulafurt,1014,14.55,Medium,Yes
+RT0015,WH029,East Henrymouth,214,4.13,Medium,No
+RT0016,WH017,East Alejandroshire,385,5.84,High,No
+RT0017,WH029,East Caitlin,1252,20.91,Low,No
+RT0018,WH002,Ralphbury,502,6.33,Medium,No
+RT0019,WH028,Wattsmouth,717,13.67,Low,Yes
+RT0020,WH017,Petersenhaven,449,5.89,High,No
+RT0021,WH042,West Jamesstad,1313,24.42,High,Yes
+RT0022,WH001,Atkinsville,1467,24.51,Low,Yes
+RT0023,WH020,Benjaminburgh,1067,21.79,Medium,No
+RT0024,WH046,Morganview,364,4.91,High,Yes
+RT0025,WH019,West Monica,678,9.25,High,No
+RT0026,WH003,Julieshire,280,4.81,Medium,Yes
+RT0027,WH015,West Katelynfurt,1312,21.87,Low,No
+RT0028,WH044,Port Tina,1211,29.94,High,No
+RT0029,WH025,Stevenside,641,8.94,Medium,Yes
+RT0030,WH036,Benjaminhaven,440,5.78,High,Yes
+RT0031,WH049,Johnfurt,547,10.77,Low,Yes
+RT0032,WH004,Whitneyborough,77,1.39,High,No
+RT0033,WH031,Lake Nathaniel,926,15.93,High,No
+RT0034,WH009,North Conniemouth,384,6.53,High,Yes
+RT0035,WH031,West Christopherport,696,12.82,Medium,No
+RT0036,WH015,Hernandezport,393,5.8,Medium,No
+RT0037,WH002,Port Ana,385,7.21,High,Yes
+RT0038,WH014,New Micheletown,664,8.33,Medium,Yes
+RT0039,WH013,New Jeremy,468,5.89,Low,Yes
+RT0040,WH002,New Emily,1444,23.26,High,Yes
+RT0041,WH004,Oliverhaven,1020,22.1,High,No
+RT0042,WH021,Deborahshire,961,12.18,High,No
+RT0043,WH004,Lake Robin,643,9.11,Low,No
+RT0044,WH011,Bakerton,1426,29.27,Medium,No
+RT0045,WH011,Boydstad,328,6.55,Low,Yes
+RT0046,WH046,East Brianna,374,7.31,Low,No
+RT0047,WH045,South Hannahborough,301,5.85,High,Yes
+RT0048,WH049,West Jessicabury,1465,20.84,High,No
+RT0049,WH042,South Jeremy,413,6.66,High,No
+RT0050,WH035,Port Nicholas,108,1.84,High,Yes
+RT0051,WH039,Smithberg,1458,20.81,Low,No
+RT0052,WH015,South Zacharyside,1198,23.11,Low,Yes
+RT0053,WH026,New David,119,2.63,High,No
+RT0054,WH036,Zacharyburgh,733,10.97,High,Yes
+RT0055,WH044,Deborahstad,1035,20.95,Low,Yes
+RT0056,WH007,Garciaside,1494,25.87,Low,Yes
+RT0057,WH029,West Stephaniehaven,225,4.44,High,No
+RT0058,WH020,Margarettown,1205,15.79,Medium,No
+RT0059,WH003,Daltonview,1403,18.75,High,No
+RT0060,WH035,South Johnathanport,673,11.73,Low,Yes
+RT0061,WH036,South Megan,155,2.52,Medium,Yes
+RT0062,WH001,New Kylemouth,393,8.86,High,No
+RT0063,WH046,Moranshire,1017,14.98,High,Yes
+RT0064,WH014,Christineton,329,5.38,Low,Yes
+RT0065,WH041,Sarahport,594,10.27,High,No
+RT0066,WH049,Tammyfort,338,4.86,Medium,Yes
+RT0067,WH041,North Kristinstad,375,9.07,Low,No
+RT0068,WH044,Woodchester,994,14.11,Medium,No
+RT0069,WH006,South Joelburgh,196,4.07,High,Yes
+RT0070,WH044,South Nicoleport,1210,15.53,Low,Yes
+RT0071,WH020,East Robertville,984,18.78,Low,Yes
+RT0072,WH025,North Johnhaven,850,18.15,High,No
+RT0073,WH029,Port Nathan,693,10.59,High,Yes
+RT0074,WH026,West Yesenia,1063,16.49,Low,No
+RT0075,WH032,Nelsonfurt,649,12.03,Low,No
+RT0076,WH039,Port Christopherview,757,10.42,High,No
+RT0077,WH018,Burnsview,949,16.62,Low,No
+RT0078,WH016,Lake Leonardchester,568,8.59,High,Yes
+RT0079,WH024,North Nathanton,970,15.27,Low,Yes
+RT0080,WH015,Armstrongmouth,1118,20.18,Low,No
+RT0081,WH045,East Charleston,1433,31.16,Low,Yes
+RT0082,WH047,East Alexanderport,265,4.47,High,Yes
+RT0083,WH037,South Edward,496,9.57,High,No
+RT0084,WH036,North Teresa,92,1.94,Medium,Yes
+RT0085,WH045,Rogersville,531,7.56,Low,Yes
+RT0086,WH043,Jamesland,1113,16.07,High,Yes
+RT0087,WH030,Manuelborough,1194,18.41,Low,No
+RT0088,WH019,Port Jesus,96,1.49,Low,No
+RT0089,WH005,Williamsside,1448,20.84,High,No
+RT0090,WH049,Powellberg,1372,19.64,Low,No
+RT0091,WH008,Perezmouth,584,8.66,High,Yes
+RT0092,WH044,Jenniferbury,532,7.82,Low,Yes
+RT0093,WH024,New Chelseatown,1067,20.22,Low,No
+RT0094,WH019,Sheltonland,541,7.21,High,No
+RT0095,WH013,East Alanchester,1308,29.24,High,Yes
+RT0096,WH003,New Stevenchester,503,8.94,High,Yes
+RT0097,WH034,Lauraburgh,1176,14.96,High,No
+RT0098,WH030,Lake Eric,155,3.42,High,No
+RT0099,WH009,Brooksland,901,11.75,Medium,Yes
+RT0100,WH017,Kingview,1045,13.2,High,No

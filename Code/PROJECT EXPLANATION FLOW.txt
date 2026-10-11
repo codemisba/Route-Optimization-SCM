@@ -1,0 +1,16 @@
+Project Walkthru
+-----------------------------------------
+1)Project Problem Statement
+2)Proposed System
+3)Design/Architecture
+4)Curated Datasets (Offline Datasets - CSV , Realtime Datasets - API)
+5)Synthetic Data - Explain the way how generated the synthetic data - explain Faker package)
+6)Data processing - Environment (Apache Spark, Kafka and Airflow)
+7)Apache Spark Environment Setup - Open the guide document and explain
+8)Open Ubuntu - Spark explanation
+9)Database explanation - neontech
+10)Dbweaver
+11)ML Model
+12)Deployment/Training
+13)Reports & Dashboards - PowerBI
+

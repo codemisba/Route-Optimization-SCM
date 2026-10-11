@@ -1,0 +1,101 @@
+VehicleID,VehicleType,RegistrationNumber,CapacityKg,CurrentLocation,AvailabilityStatus,AssignedRouteID,LastMaintenanceDate,FuelType,GPSEnabled
+VEH0001,Cargo Truck,VM25mF3248,712,Courtneyside,In Transit,RT310,2025-02-04,CNG,No
+VEH0002,Bike,Ib98qR7775,36,Fosterburgh,Available,,2025-01-30,CNG,No
+VEH0003,Cargo Truck,zS01ub6634,692,Weberland,Under Maintenance,,2025-03-19,Electric,Yes
+VEH0004,Cargo Truck,VO92hq2279,683,Downsmouth,In Transit,RT542,2025-02-02,Electric,Yes
+VEH0005,Cargo Truck,cF77pJ0748,232,Gonzalezbury,In Transit,RT958,2024-11-12,Electric,No
+VEH0006,Mini Truck,ng17Ys2872,496,Mcgeestad,Under Maintenance,,2024-10-16,CNG,Yes
+VEH0007,Mini Truck,EI78Yd7909,472,West Coltonbury,Available,,2025-01-19,Electric,Yes
+VEH0008,Cargo Truck,ab32pY1907,496,West Shawnamouth,In Transit,RT751,2025-01-04,CNG,No
+VEH0009,Delivery Van,YM54ry7958,232,Adamshire,Available,,2025-03-20,Electric,No
+VEH0010,Bike,av26LI8814,43,Larrytown,Available,,2024-11-11,Diesel,Yes
+VEH0011,Delivery Van,lk53jv9975,910,Lisahaven,Under Maintenance,,2025-01-15,Diesel,Yes
+VEH0012,Mini Truck,DL59aj8857,655,Craigstad,Under Maintenance,,2024-11-22,Petrol,Yes
+VEH0013,Bike,rX98oM4105,32,South Charlesborough,Under Maintenance,,2025-02-06,Petrol,Yes
+VEH0014,Bike,yL81ws0285,49,Lake Marthaberg,Available,,2025-03-24,CNG,No
+VEH0015,Mini Truck,zP75OZ4983,135,Roseshire,Available,,2024-11-02,Petrol,Yes
+VEH0016,Cargo Truck,IL17Rn8375,662,Cantuview,Available,,2024-10-22,Petrol,Yes
+VEH0017,Mini Truck,dn41rQ8920,241,Port Tracy,Under Maintenance,,2025-02-19,Electric,Yes
+VEH0018,Delivery Van,yT94WL7035,76,West Heather,In Transit,RT255,2024-12-30,CNG,No
+VEH0019,Delivery Van,nB27kj5012,266,Martinhaven,Available,,2024-12-20,Electric,Yes
+VEH0020,Mini Truck,iY53uc2492,298,Spencerchester,In Transit,RT109,2025-02-01,Diesel,No
+VEH0021,Bike,Rl78Xn7378,32,Hammondhaven,In Transit,RT565,2025-02-23,Electric,No
+VEH0022,Bike,Zc54eg9733,35,Deborahland,In Transit,RT423,2025-01-03,Electric,No
+VEH0023,Mini Truck,SG66xH1471,555,East Wayneberg,Under Maintenance,,2025-03-07,Petrol,No
+VEH0024,Delivery Van,Ge07lK1442,636,Lake Trevor,Under Maintenance,,2024-11-07,Diesel,No
+VEH0025,Mini Truck,PD20FO5064,312,Johnsonville,Available,,2024-12-27,Electric,No
+VEH0026,Mini Truck,DG12Rr2344,460,Sloanhaven,Available,,2025-03-13,Petrol,Yes
+VEH0027,Mini Truck,Pf72XZ7294,536,Charlesview,Available,,2025-01-04,CNG,Yes
+VEH0028,Mini Truck,bT36Pw3490,120,Port Jonathan,In Transit,RT934,2025-03-11,Diesel,Yes
+VEH0029,Delivery Van,wK34rR2399,876,Davisfurt,Under Maintenance,,2024-11-29,Electric,Yes
+VEH0030,Bike,Ru41ue9293,47,Jessicaville,Under Maintenance,,2024-11-09,CNG,No
+VEH0031,Delivery Van,PS84Gn6866,561,Jasonmouth,Under Maintenance,,2025-02-06,Petrol,Yes
+VEH0032,Cargo Truck,fn73mq8424,543,Traciton,In Transit,RT774,2025-03-08,Electric,Yes
+VEH0033,Cargo Truck,Lo57LJ8274,499,Wilkinsonland,Under Maintenance,,2025-03-10,Petrol,Yes
+VEH0034,Delivery Van,jg46Ow3735,68,Deannaville,In Transit,RT910,2025-03-05,Electric,No
+VEH0035,Bike,QE43FA1600,27,Kathrynbury,Available,,2025-03-11,Petrol,Yes
+VEH0036,Cargo Truck,Cd76dy2556,599,East Allisonbury,Under Maintenance,,2025-03-14,Electric,Yes
+VEH0037,Cargo Truck,mT40eu4736,281,Lake Conniebury,Available,,2024-10-23,Petrol,No
+VEH0038,Cargo Truck,zk33Zy2852,625,Keithview,Available,,2025-02-04,Electric,Yes
+VEH0039,Cargo Truck,Ze35QS2724,257,Lake David,Under Maintenance,,2025-01-20,Electric,No
+VEH0040,Bike,Yl92wU2090,20,Rodriguezmouth,In Transit,RT101,2024-11-06,Petrol,Yes
+VEH0041,Delivery Van,pQ34xL4085,911,Daltonburgh,In Transit,RT610,2025-03-13,Petrol,No
+VEH0042,Cargo Truck,kM29yl3780,989,Patriciashire,Under Maintenance,,2024-11-28,Diesel,No
+VEH0043,Mini Truck,tA49ki3695,637,Port Reginaldstad,Under Maintenance,,2025-02-14,CNG,Yes
+VEH0044,Bike,SD88aF7350,39,New Sheriview,In Transit,RT990,2024-10-16,Petrol,No
+VEH0045,Cargo Truck,ya69Cd2033,710,Port Tammyside,In Transit,RT300,2025-02-04,Petrol,Yes
+VEH0046,Cargo Truck,XQ10Zj5829,332,West Jeffrey,Under Maintenance,,2025-02-26,Petrol,Yes
+VEH0047,Delivery Van,Bz03IL8021,499,Matthewborough,Under Maintenance,,2024-11-23,Electric,No
+VEH0048,Mini Truck,vj83OW2992,761,South Christyhaven,Under Maintenance,,2025-02-08,Electric,Yes
+VEH0049,Delivery Van,Py98zQ4282,146,West Amber,Available,,2025-03-04,Electric,No
+VEH0050,Bike,NQ76ZM1277,38,Courtneyhaven,Under Maintenance,,2024-11-30,Petrol,No
+VEH0051,Cargo Truck,Ne23CD2094,979,West Lonniebury,Under Maintenance,,2025-01-03,Electric,No
+VEH0052,Bike,lw50vo6635,38,Davidton,Under Maintenance,,2025-02-08,Electric,Yes
+VEH0053,Cargo Truck,qT80fg6223,463,Vasquezfort,In Transit,RT864,2024-10-19,CNG,No
+VEH0054,Bike,lY30jy3135,32,Davidshire,In Transit,RT131,2025-03-17,Diesel,No
+VEH0055,Delivery Van,QG98sf0385,272,Lake Katherine,Available,,2025-02-22,Electric,Yes
+VEH0056,Delivery Van,FI40Lf3439,599,Kimberlyhaven,In Transit,RT790,2024-10-25,Electric,No
+VEH0057,Delivery Van,aW28uN0336,985,East Joseph,Available,,2024-10-18,Diesel,No
+VEH0058,Mini Truck,jF29vc0330,82,Andersenburgh,In Transit,RT538,2024-10-29,CNG,Yes
+VEH0059,Mini Truck,RH95WD7018,464,Port Jeffreyport,In Transit,RT728,2025-03-10,CNG,No
+VEH0060,Mini Truck,gX64Xj9437,108,Port Justin,Under Maintenance,,2025-01-22,Diesel,No
+VEH0061,Cargo Truck,UC78ir6615,252,New Kristenhaven,In Transit,RT515,2025-02-04,Petrol,Yes
+VEH0062,Cargo Truck,ve91ao6793,667,North Martin,Under Maintenance,,2024-11-14,CNG,No
+VEH0063,Bike,Lq45DS5203,38,Emilyfort,Available,,2024-11-11,CNG,No
+VEH0064,Cargo Truck,Gd88Dn1489,253,Perryfort,In Transit,RT912,2024-10-21,Petrol,No
+VEH0065,Bike,gq93Dv1892,21,North William,Available,,2024-12-30,CNG,No
+VEH0066,Mini Truck,IU01gK7932,221,Lake Christopherland,In Transit,RT862,2025-01-28,CNG,Yes
+VEH0067,Cargo Truck,RH32Te1823,149,Cynthiaview,In Transit,RT951,2025-03-10,CNG,No
+VEH0068,Cargo Truck,eJ16Ns9780,355,Lake Gary,Under Maintenance,,2024-11-17,Petrol,Yes
+VEH0069,Cargo Truck,qO65oL1133,830,Thomasside,Under Maintenance,,2025-01-03,Electric,No
+VEH0070,Cargo Truck,pR72aZ1191,616,Millerburgh,Under Maintenance,,2024-12-30,Electric,Yes
+VEH0071,Delivery Van,lx53oM9780,360,West Patriciamouth,In Transit,RT804,2025-03-18,Electric,No
+VEH0072,Delivery Van,uP83RS1220,344,Susanborough,In Transit,RT450,2024-12-07,Diesel,No
+VEH0073,Delivery Van,Nz56SI5414,219,Ryanside,In Transit,RT513,2025-02-08,Electric,Yes
+VEH0074,Delivery Van,If29Km6019,819,Lake Codyview,In Transit,RT777,2025-02-07,Diesel,Yes
+VEH0075,Cargo Truck,on04NJ7986,921,Josephstad,In Transit,RT492,2025-01-07,Petrol,Yes
+VEH0076,Bike,xP97IX5440,33,West Morgan,Under Maintenance,,2024-12-31,Electric,Yes
+VEH0077,Cargo Truck,sl10Ke2339,627,West Angelicaburgh,Under Maintenance,,2024-12-16,Diesel,No
+VEH0078,Mini Truck,Hn79Uz0130,85,Rodrigueztown,In Transit,RT975,2024-11-08,Electric,No
+VEH0079,Bike,LI82lv0572,36,Port Charlesberg,In Transit,RT529,2024-11-06,Petrol,Yes
+VEH0080,Bike,ar40Jm9071,28,Larryville,Available,,2024-12-23,Petrol,Yes
+VEH0081,Bike,QJ29Mo3552,28,Port Carlchester,Available,,2024-11-09,Diesel,Yes
+VEH0082,Mini Truck,hm76UM6724,660,South Tyler,Under Maintenance,,2024-11-21,Petrol,Yes
+VEH0083,Bike,fJ03HF6144,45,West Teresaview,Available,,2024-12-15,Diesel,No
+VEH0084,Cargo Truck,QT16jf2008,425,South Stacey,Available,,2025-01-29,Petrol,Yes
+VEH0085,Cargo Truck,UI24cp5952,747,Lisaview,In Transit,RT920,2025-02-26,Petrol,Yes
+VEH0086,Bike,YW30ck5502,27,New Jennifer,In Transit,RT772,2025-03-03,CNG,No
+VEH0087,Bike,ha10wy5354,34,Ricefort,In Transit,RT650,2024-11-05,Diesel,No
+VEH0088,Delivery Van,Yg65UC9566,276,Lake Garyberg,In Transit,RT300,2025-03-29,CNG,Yes
+VEH0089,Bike,JO74xX8887,23,Katherineborough,Under Maintenance,,2024-10-10,Petrol,No
+VEH0090,Delivery Van,UT38DK3118,409,Lake Carol,In Transit,RT410,2025-02-25,Electric,No
+VEH0091,Delivery Van,bJ78KX9283,733,South Kelly,Under Maintenance,,2025-03-12,Electric,No
+VEH0092,Cargo Truck,ue40FD1476,572,West Jenniferberg,Available,,2025-01-11,CNG,No
+VEH0093,Bike,qS20ZQ8704,26,Dayville,Available,,2025-01-31,Diesel,Yes
+VEH0094,Bike,tU71HZ1112,49,Gabriellamouth,Available,,2025-01-23,CNG,No
+VEH0095,Cargo Truck,nb69bK2282,126,North Tammyfurt,In Transit,RT722,2024-11-21,Petrol,No
+VEH0096,Cargo Truck,Ff11ab6665,766,North Christopherburgh,Available,,2024-11-30,Diesel,No
+VEH0097,Cargo Truck,Gh85Fl1104,656,Port Jasonport,In Transit,RT765,2025-03-29,CNG,Yes
+VEH0098,Bike,tr87bn3709,23,Craigberg,Under Maintenance,,2025-02-23,CNG,No
+VEH0099,Cargo Truck,zJ74TE1893,517,North Teresa,In Transit,RT210,2025-03-10,Electric,No
+VEH0100,Delivery Van,Qw90in0214,263,Zoeton,Under Maintenance,,2024-11-26,Diesel,No

@@ -1,0 +1,51 @@
+WarehouseID,WarehouseName,City,State,Latitude,Longitude,StorageCapacityTons,CurrentUtilizationPercent,ManagerName,ContactNumber,OperatingHours,IsOperational
+WH001,Wise-Hernandez Warehouse,Yangtown,Vermont,-22.890096,-33.411405,4101,86.17,Erika Peterson,(850)411-2032x33468,08:00 - 20:00,Yes
+WH002,Young-Knight Warehouse,Stevenhaven,Louisiana,-40.726802,103.256775,791,93.78,Jeremy Hale,911.245.0113,08:00 - 20:00,Yes
+WH003,Hall LLC Warehouse,Ralphtown,Florida,-51.600810,106.485250,1910,52.09,Brittany Huffman,(984)817-3482x00142,08:00 - 20:00,Yes
+WH004,Turner and Sons Warehouse,Justinmouth,Alaska,86.848542,116.568136,3815,32.4,Cynthia Gutierrez,747-747-1858,08:00 - 20:00,Yes
+WH005,"Cook, Bernard and Lamb Warehouse",Martinstad,New Hampshire,23.523830,37.850804,3235,48.38,Sarah Gomez,(902)241-5566,08:00 - 20:00,Yes
+WH006,Benjamin Ltd Warehouse,Amandashire,Georgia,10.465716,139.172366,1627,57.99,Maria Cisneros,(988)407-5942x55518,08:00 - 20:00,Yes
+WH007,"Tanner, Davis and Rogers Warehouse",Riversburgh,Iowa,73.690644,53.846175,4124,37.06,Jeremy Mcdonald,001-807-799-3452x87291,08:00 - 20:00,Yes
+WH008,"Barnett, Morales and Beck Warehouse",Leeville,Oregon,-75.661856,-171.273238,4787,88.46,Ryan Smith,722-911-7394,08:00 - 20:00,Yes
+WH009,Baker-Hernandez Warehouse,Robinsonview,Idaho,-0.473648,41.182903,1390,81.81,Tony Kennedy,577.345.5202x06325,08:00 - 20:00,Yes
+WH010,"Johnson, Walters and Stewart Warehouse",Danachester,Washington,-7.643560,118.940791,3892,79.39,Stacy Silva,(947)577-4873,08:00 - 20:00,Yes
+WH011,Patterson-Guerra Warehouse,Deannaside,Illinois,-10.788988,98.188189,3780,38.19,Jose Baker,+1-330-581-7469x9649,08:00 - 20:00,Yes
+WH012,Wu and Sons Warehouse,Elizabethview,Alabama,-54.186977,-145.235175,131,92.28,Kimberly Smith,991.583.1914,08:00 - 20:00,Yes
+WH013,Mendoza LLC Warehouse,Debraton,North Carolina,-80.578772,-153.242813,4900,98.42,James Vasquez,9022897583,08:00 - 20:00,No
+WH014,Sims-Thompson Warehouse,Kennethfort,Oklahoma,86.373598,-46.251613,4388,36.33,Jasmine Gardner,819.945.8762,08:00 - 20:00,Yes
+WH015,Diaz-Ford Warehouse,Debbietown,Louisiana,-83.335200,42.785930,1079,91.24,Tiffany Williams,874-257-4764,08:00 - 20:00,Yes
+WH016,Casey Group Warehouse,North Jamesburgh,Wyoming,-13.517423,51.144950,2529,60.38,Tiffany Merritt,(603)211-8201x7669,08:00 - 20:00,Yes
+WH017,Perez-Castillo Warehouse,Karenton,Indiana,31.483666,-71.609634,1037,92.34,Terri Morris,(371)433-1726x4120,08:00 - 20:00,Yes
+WH018,"Franco, Hart and Johns Warehouse",West Jamesstad,South Dakota,-49.687422,-28.533230,1772,25.81,April Wells,807-876-5177x747,08:00 - 20:00,Yes
+WH019,Clark-Ramirez Warehouse,Clarktown,Georgia,-34.144216,72.978951,4204,21.28,David Johnson,407-687-3226x80958,08:00 - 20:00,Yes
+WH020,Smith-Sims Warehouse,Stephanieberg,Michigan,22.008261,76.714997,1667,68.72,Wendy Mccoy,(297)780-9402x4838,08:00 - 20:00,Yes
+WH021,Smith Ltd Warehouse,North Darrell,West Virginia,75.113883,-137.739310,1501,40.99,Morgan Parker,882-393-5199,08:00 - 20:00,Yes
+WH022,Davila LLC Warehouse,Robertsland,Kentucky,-49.045099,110.227982,2675,70.43,Jack Hernandez,+1-684-260-2610x51668,08:00 - 20:00,Yes
+WH023,Hernandez-Wagner Warehouse,Brownfort,Ohio,-22.350306,-48.848150,1739,74.96,David Kennedy,386-515-4182x898,08:00 - 20:00,Yes
+WH024,Gallagher-Dudley Warehouse,Michaelberg,Iowa,-41.396554,-91.607354,3898,74.19,Katherine Richards,7819665540,08:00 - 20:00,Yes
+WH025,Harris-Johnson Warehouse,East Jeffery,New Hampshire,41.652738,-118.770313,1650,21.95,Jeremy Carlson,001-903-648-9533x38954,08:00 - 20:00,Yes
+WH026,Jimenez-Frazier Warehouse,North David,Arkansas,39.083814,-123.591115,4690,54.96,Daniel Howard,8297103653,08:00 - 20:00,Yes
+WH027,"Chen, Gallagher and Williams Warehouse",Potterborough,Wyoming,-82.198802,29.454964,3532,96.02,Henry Bullock,+1-623-795-9885x2581,08:00 - 20:00,No
+WH028,Horne Inc Warehouse,South Drewview,Indiana,57.710730,-92.369454,3769,87.65,Brian Johnson,001-346-739-6072,08:00 - 20:00,Yes
+WH029,Williams and Sons Warehouse,Lake Jeffreyton,North Carolina,43.405085,167.685423,4728,94.68,Jennifer Bryan,397.890.5129x419,08:00 - 20:00,Yes
+WH030,Bowman-Martin Warehouse,Robertsonton,Arkansas,-70.649848,139.529486,3002,27.87,Jennifer Skinner MD,001-484-383-4362x99483,08:00 - 20:00,Yes
+WH031,"Kane, Reeves and Estes Warehouse",South Vickitown,South Carolina,-21.570698,175.201958,3700,71.37,William Trevino DVM,+1-262-788-3248x6596,08:00 - 20:00,Yes
+WH032,Zamora-Young Warehouse,Lake Gerald,West Virginia,-40.189524,-54.174506,1428,87.74,Debbie Blankenship,+1-885-590-4665x513,08:00 - 20:00,Yes
+WH033,Sanders LLC Warehouse,Bradshawberg,Kansas,-64.773862,-176.616068,3379,64.51,Raymond Braun,668-419-6175x884,08:00 - 20:00,Yes
+WH034,Martinez Group Warehouse,Amandachester,Hawaii,-13.205308,-173.079662,1009,60.07,Donald Smith,(506)672-2379x3560,08:00 - 20:00,Yes
+WH035,"Ponce, Huff and Cantu Warehouse",East Richard,North Carolina,19.779986,168.595031,4178,89.38,Ryan Payne,442.802.0317x101,08:00 - 20:00,Yes
+WH036,Green-Wright Warehouse,East Susan,Idaho,58.656658,68.642692,2399,83.05,David Proctor II,644-468-7896x2174,08:00 - 20:00,Yes
+WH037,Green-Irwin Warehouse,West Debra,Wyoming,-89.839912,-135.961478,1951,97.87,Tyler Taylor,891-295-0790x004,08:00 - 20:00,No
+WH038,"Ramsey, Porter and Bradley Warehouse",South Brandon,Minnesota,18.441138,122.006104,3194,36.22,Katelyn Gregory,001-298-755-9162,08:00 - 20:00,Yes
+WH039,"Herman, Miller and King Warehouse",Port Joyceborough,Vermont,87.333281,93.128518,926,92.34,Penny Hawkins,(548)702-5254,08:00 - 20:00,Yes
+WH040,Patterson-Herrera Warehouse,Luisstad,Georgia,31.677736,-78.854647,4710,20.07,Erica Melendez,+1-453-872-6064x614,08:00 - 20:00,Yes
+WH041,Garcia-Carter Warehouse,Davidburgh,Iowa,-83.494129,-164.667843,3884,96.77,Cameron Waters,998-318-2949x636,08:00 - 20:00,No
+WH042,Wright-Lin Warehouse,Pittmanchester,New York,-25.287448,-96.152007,2943,34.36,Lauren Coleman,(835)276-9999x0230,08:00 - 20:00,Yes
+WH043,Matthews Group Warehouse,North Jasonmouth,Missouri,-13.820425,121.422577,4587,88.43,Kathy Gallagher,+1-870-835-1957x177,08:00 - 20:00,Yes
+WH044,Lopez-Morgan Warehouse,Shannonchester,New Jersey,42.854297,146.012199,3338,90.15,Connie Bennett,652-372-4082,08:00 - 20:00,Yes
+WH045,"Mcguire, Marshall and Williamson Warehouse",North Hannah,Kansas,-9.075757,89.870168,4850,38.11,Jeremiah Sandoval,(461)451-3114,08:00 - 20:00,Yes
+WH046,Lawrence PLC Warehouse,Carolynburgh,Hawaii,-85.216172,102.252596,823,34.13,Jenna Thomas,+1-969-439-9992,08:00 - 20:00,Yes
+WH047,Nelson Inc Warehouse,Garciaport,Ohio,75.847354,-157.604171,984,65.25,Travis Johnson,+1-724-605-8547x17052,08:00 - 20:00,Yes
+WH048,Kelley-Gill Warehouse,Scottborough,California,-85.717088,-1.865516,2582,44.94,Carolyn Smith,(927)673-7742x02242,08:00 - 20:00,Yes
+WH049,Gutierrez and Sons Warehouse,North Evan,Utah,88.216526,136.099171,1094,86.98,Michelle Ellison,573.785.4898x230,08:00 - 20:00,Yes
+WH050,Moreno Group Warehouse,East Rhondatown,Rhode Island,64.430226,-6.917435,1908,20.14,Mr. Andre Dunn,+1-224-463-5796x5436,08:00 - 20:00,Yes

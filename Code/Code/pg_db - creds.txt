@@ -1,0 +1,10 @@
+postgresql://neondb_owner:npg_6OQxq1nkRlwi@ep-broad-breeze-a1czee36-pooler.ap-southeast-1.aws.neon.tech/DRODB?sslmode=require
+
+neondb_owner - database username
+npg_6OQxq1nkRlwi - database password
+ep-broad-breeze-a1czee36-pooler.ap-southeast-1.aws.neon.tech - database server url
+DRODB - database name
+sslmode - determines the secured connectivity between client and server
+
+
+

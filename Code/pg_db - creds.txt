@@ -1,0 +1,59 @@
+postgresql://neondb_owner:npg_6OQxq1nkRlwi@ep-broad-breeze-a1czee36-pooler.ap-southeast-1.aws.neon.tech/DRODB?sslmode=require
+
+neondb_owner - database username
+npg_6OQxq1nkRlwi - database password
+ep-broad-breeze-a1czee36-pooler.ap-southeast-1.aws.neon.tech - database server url
+DRODB - database name
+sslmode - determines the secured connectivity between client and server
+
+
+To start the master
+$ start-master.sh
+To start the worker
+$ start-worker.sh <<master url>>
+
+Spark Master Port : http://localhost:7077
+Spark Master Web Ui : http://localhost:8080 [type this in browser]
+
+To start Spark CLI 
+$ spark-shell
+
+to check whether spark
+
+val nums = Array(1,6,9,4)
+val rdd = sc.parallelize(nums)
+rdd.count
+
+Spark Web UI : http://localhost:4040
+
+Airflow
+------------ 
+To reset the airflow db:
+airflow db reset
+To initalize the airflow db:
+airflow db init
+
+
+To create airflow user:
+
+airflow users create \
+   --username admin \
+   --firstname First \
+   --lastname Last \
+   --role Admin \
+   --email admin@example.com \
+   --password newpassword123
+
+
+Run command to start Airflow: 
+
+airflow scheduler 
+
+followed by to run the airflow webserver :
+
+airflow webserver -port 8080
+
+Airflow Web UI : http://localhost:8080/home
+
+username: admin
+password:newpassword123

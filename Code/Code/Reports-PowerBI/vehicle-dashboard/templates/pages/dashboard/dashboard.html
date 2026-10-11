@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Route Optimization - Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+   <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      margin: 0;
+      background-color: #f8f9fa;
+    }
+    .main {
+      display: flex;
+      flex-grow: 1;
+      overflow: hidden;
+    }
+    .sidebar {
+      width: 250px;
+      background-color: #0d6efd;
+      color: white;
+      padding-top: 20px;
+    }
+    .sidebar .nav-link {
+      color: white;
+    }
+    .sidebar .nav-link.active, .sidebar .nav-link:hover {
+      background-color: #0a58ca;
+    }
+    .content {
+      flex-grow: 1;
+      padding: 20px;
+      overflow-y: auto;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+    }
+    .table thead {
+      background-color: #e9f0ff;
+    }
+    header {
+      background-color: #f8f9fa;
+      padding: 10px 20px;
+      border-bottom: 1px solid #dee2e6;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    footer {
+      background-color: #f8f9fa;
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9rem;
+      border-top: 1px solid #dee2e6;
+    }
+    .footer-links a {
+      color: #0d6efd;
+      margin: 0 10px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+    .logo {
+      height: 40px;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="d-flex align-items-center">
+      
+      <h5 class="mb-0">Dynnamic Route Optimization Dashboard</h5>
+    </div>
+  </header>
+
+   <div class="main">
+  <div class="sidebar d-flex flex-column p-3">
+    <h4 class="mb-4">Dashboard</h4>
+    <ul class="nav nav-pills flex-column" id="menu">
+      <li><a href="#" class="nav-link active" onclick="showSection('driver')">Delivery Driver</a></li>
+      <li><a href="#" class="nav-link" onclick="showSection('vehicle')">Delivery Vehicle</a></li>
+      <li><a href="#" class="nav-link" onclick="showSection('fuel')">Fuel Types</a></li>
+      <li><a href="#" class="nav-link" onclick="showSection('route')">Delivery Route Info</a></li>
+      <li><a href="#" class="nav-link" onclick="showSection('customers')">Customers</a></li>
+      <li><a href="#" class="nav-link" onclick="showSection('orders')">Orders</a></li>
+      <li><a href="#" class="nav-link" onclick="showSection('warehouse')">Warehouse</a></li>
+    </ul>
+  </div>
+
+  <div class="content">
+    <!-- Sections -->
+    <div id="driver" class="section">
+      <div class="d-flex justify-content-between mb-3">
+        <h3>Delivery Drivers</h3>
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#driverModal">Add Driver</button>
+      </div>
+      <input type="text" class="form-control mb-2" placeholder="Search drivers...">
+      <table class="table table-bordered">
+        <thead><tr><th>Name</th><th>License</th><th>Phone</th><th>Vehicle Type</th><th>Reg No</th><th>Area</th><th>Status</th><th>Company</th><th>Actions</th></tr></thead>
+        <tbody><tr><td>Dawn Young</td><td>DL65731Fy</td><td>+1-301-724-9487x2107</td><td>Cargo Truck</td><td>ty70MI1598</td><td>Meganmouth</td><td>Full-Time</td><td>Garcia Group</td><td><button class='btn btn-warning btn-sm'>Edit</button> <button class='btn btn-danger btn-sm'>Delete</button></td></tr>
+         <tr>
+      <td>Andrew Henderson</td>
+      <td>DL82225lq</td>
+      <td>001-368-377-8136x62784</td>
+      <td>Cargo Truck</td>
+      <td>WL07du3730</td>
+      <td>Lake Brittanyhaven</td>
+      <td>Part-Time</td>
+      <td>Cunningham Ltd</td>
+       <td>
+              <button class="btn btn-sm btn-warning">Edit</button>
+              <button class="btn btn-sm btn-danger" onclick="confirm('Are you sure you want to delete this record?')">Delete</button>
+            </td>
+    </tr>
+    
+    <tr>
+      <td>Brittany Donovan</td>
+      <td>DL27417ZH</td>
+      <td>288.343.9691</td>
+      <td>Bike</td>
+      <td>Ai56CC1939</td>
+      <td>West Kendra</td>
+      <td>Contract</td>
+      <td>Coleman Inc</td>
+       <td>
+              <button class="btn btn-sm btn-warning">Edit</button>
+              <button class="btn btn-sm btn-danger" onclick="confirm('Are you sure you want to delete this record?')">Delete</button>
+            </td>
+    </tr>
+    
+    <tr>
+      <td>Walter Golden</td>
+      <td>DL84757LN</td>
+      <td>+1-420-642-1596x625</td>
+      <td>Delivery Van</td>
+      <td>vx98XS2195</td>
+      <td>Marcoport</td>
+      <td>Part-Time</td>
+      <td>Jones-French</td>
+       <td>
+              <button class="btn btn-sm btn-warning">Edit</button>
+              <button class="btn btn-sm btn-danger" onclick="confirm('Are you sure you want to delete this record?')">Delete</button>
+            </td>
+    </tr>
+    
+    <tr>
+      <td>Chad Cruz</td>
+      <td>DL80707BA</td>
+      <td>957.970.8840x206</td>
+      <td>Cargo Truck</td>
+      <td>Mm38ZB7516</td>
+      <td>Port Sylviaton</td>
+      <td>Part-Time</td>
+      <td>Bartlett, Brown and Wright</td>
+       <td>
+              <button class="btn btn-sm btn-warning">Edit</button>
+              <button class="btn btn-sm btn-danger" onclick="confirm('Are you sure you want to delete this record?')">Delete</button>
+            </td>
+    </tr>
+    
+    <tr>
+      <td>Monique Hudson</td>
+      <td>DL60858Lw</td>
+      <td>845.606.6975</td>
+      <td>Delivery Van</td>
+      <td>DK00Lb8806</td>
+      <td>East Jeffrey</td>
+      <td>Contract</td>
+      <td>Wilson, Flores and Townsend</td>
+       <td>
+              <button class="btn btn-sm btn-warning">Edit</button>
+              <button class="btn btn-sm btn-danger" onclick="confirm('Are you sure you want to delete this record?')">Delete</button>
+            </td>
+    </tr>
+    
+    <tr>
+      <td>Melissa Davis</td>
+      <td>DL15105EK</td>
+      <td>+1-529-920-8002</td>
+      <td>Delivery Van</td>
+      <td>mA02ZA6527</td>
+      <td>North Gregville</td>
+      <td>Part-Time</td>
+      <td>Adams Inc</td>
+       <td>
+              <button class="btn btn-sm btn-warning">Edit</button>
+              <button class="btn btn-sm btn-danger" onclick="confirm('Are you sure you want to delete this record?')">Delete</button>
+            </td>
+    </tr>
+    
+    <tr>
+      <td>Jennifer Martin</td>
+      <td>DL47711UB</td>
+      <td>(488)350-6003</td>
+      <td>Delivery Van</td>
+      <td>Kn42pN2264</td>
+      <td>New Erinton</td>
+      <td>Part-Time</td>
+      <td>Williams, Perkins and Ray</td>
+       <td>
+              <button class="btn btn-sm btn-warning">Edit</button>
+              <button class="btn btn-sm btn-danger" onclick="confirm('Are you sure you want to delete this record?')">Delete</button>
+            </td>
+    </tr>
+    
+    <tr>
+      <td>Joshua Payne</td>
+      <td>DL75119rW</td>
+      <td>751-262-2615x6438</td>
+      <td>Mini Truck</td>
+      <td>tZ75kE6298</td>
+      <td>North Ryan</td>
+      <td>Part-Time</td>
+      <td>Pierce-Sanchez</td>
+       <td>
+              <button class="btn btn-sm btn-warning">Edit</button>
+              <button class="btn btn-sm btn-danger" onclick="confirm('Are you sure you want to delete this record?')">Delete</button>
+            </td>
+    </tr>
+    
+    <tr>
+      <td>Ashley Norman</td>
+      <td>DL00671Hy</td>
+      <td>(289)731-6593</td>
+      <td>Cargo Truck</td>
+      <td>jH86VR5227</td>
+      <td>Hartshire</td>
+      <td>Contract</td>
+      <td>Ferguson, Mays and Hicks</td>
+       <td>
+              <button class="btn btn-sm btn-warning">Edit</button>
+              <button class="btn btn-sm btn-danger" onclick="confirm('Are you sure you want to delete this record?')">Delete</button>
+            </td>
+    </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="vehicle" class="section d-none">
+      <div class="d-flex justify-content-between mb-3">
+        <h3>Delivery Vehicles</h3>
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#vehicleModal">Add Vehicle</button>
+      </div>
+      <table class="table table-bordered">
+        <thead><tr><th>Vehicle ID</th><th>Type</th><th>Capacity</th><th>Fuel Type</th><th>Status</th><th>Actions</th></tr></thead>
+        <tbody><tr><td>VH001</td><td>Truck</td><td>5000 kg</td><td>Diesel</td><td>Active</td><td><button class='btn btn-warning btn-sm'>Edit</button> <button class='btn btn-danger btn-sm'>Delete</button></td></tr></tbody>
+      </table>
+    </div>
+
+    <div id="fuel" class="section d-none">
+      <h3>Fuel Types</h3>
+      <table class="table table-bordered">
+        <thead><tr><th>Fuel Type</th><th>Price/Litre</th></tr></thead>
+        <tbody><tr><td>Diesel</td><td>$1.20</td></tr><tr><td>Petrol</td><td>$1.30</td></tr><tr><td>Electric</td><td>$0.15/kWh</td></tr></tbody>
+      </table>
+    </div>
+
+    <div id="route" class="section d-none">
+      <h3>Delivery Route Info</h3>
+      <table class="table table-bordered">
+        <thead><tr><th>Route ID</th><th>Origin</th><th>Destination</th><th>Distance</th><th>ETA</th></tr></thead>
+        <tbody><tr><td>R001</td><td>Warehouse A</td><td>Client X</td><td>120 km</td><td>2 hrs</td></tr></tbody>
+      </table>
+    </div>
+
+    <div id="customers" class="section d-none">
+      <h3>Customers</h3>
+      <table class="table table-bordered">
+        <thead><tr><th>Customer Name</th><th>Location</th><th>Contact</th></tr></thead>
+        <tbody><tr><td>Client X</td><td>Eastside Blvd</td><td>+1-789-654-3210</td></tr></tbody>
+      </table>
+    </div>
+
+    <div id="orders" class="section d-none">
+      <h3>Orders</h3>
+      <table class="table table-bordered">
+        <thead><tr><th>Order ID</th><th>Customer</th><th>Items</th><th>Status</th></tr></thead>
+        <tbody><tr><td>ORD1023</td><td>Client X</td><td>Electronics</td><td>Dispatched</td></tr></tbody>
+      </table>
+    </div>
+
+    <div id="warehouse" class="section d-none">
+      <h3>Warehouse</h3>
+      <table class="table table-bordered">
+        <thead><tr><th>Warehouse ID</th><th>Location</th><th>Capacity</th></tr></thead>
+        <tbody><tr><td>WH01</td><td>Central City</td><td>15000 sq ft</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+   </div>
+
+  <footer>
+    <div class="footer-links">
+      <a data-bs-toggle="modal" data-bs-target="#contactModal">Contact Us</a> |
+      <a data-bs-toggle="modal" data-bs-target="#aboutModal">About Us</a> |
+      <span>&copy; 2025 <b>Dynamic Route Optimization </b> | All rights reserved.</span>
+      <span>Designed and Developed by<a href="https://github.com/jsharika">U J Sharika Shivani</a></span>
+    </div>
+  </footer>
+
+  <!-- Modals -->
+  <div class="modal fade" id="driverModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">Add/Edit Driver</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form><input type="text" class="form-control mb-2" placeholder="Name"><input type="text" class="form-control mb-2" placeholder="License No"></form></div><div class="modal-footer"><button class="btn btn-secondary" data-bs-dismiss="modal">Close</button><button class="btn btn-primary">Save</button></div></div></div></div>
+  <div class="modal fade" id="vehicleModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">Add/Edit Vehicle</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><form><input type="text" class="form-control mb-2" placeholder="Vehicle ID"><input type="text" class="form-control mb-2" placeholder="Type"></form></div><div class="modal-footer"><button class="btn btn-secondary" data-bs-dismiss="modal">Close</button><button class="btn btn-primary">Save</button></div></div></div></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    function showSection(id) {
+      document.querySelectorAll('.section').forEach(s => s.classList.add('d-none'));
+      document.getElementById(id).classList.remove('d-none');
+      document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+      event.target.classList.add('active');
+    }
+  </script>
+</body>
+</html>
